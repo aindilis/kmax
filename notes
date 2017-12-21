@@ -1,0 +1,71 @@
+It seems that here is a good opportunity.
+
+We are going to come up with a programming by demonstration system.
+
+Using the data we have collected, if we have a way to take a textual
+or contextual snapshot of a window.
+
+It would be best to have the program live so that we could explore
+interactive developments.
+
+Modes of interaction are:
+
+Complete sequence if exists to explicitly instruct it to try to find a completion.
+
+Some completions may require arguments, and the system will try to
+establish the arguments by looking at the previous arguments.  It may require hints,
+
+It can ask, in this context, what is similar about these things and
+what is relevant about this similarity to the context.  It can then
+test if its hunch is correct by looking at other things.
+
+: (by looking at various previous)
+
+It can act and then ponder on its response to try to solidify it.
+
+
+Note that for instance this text right here is a matrix, and it can do
+pattern recognition on that text matrix as well.  It can't simply have
+strings as objects, but anything!  It should distinguish a string
+representing an object from the object.
+
+
+
+Okay, integration with other systems.  Mush gets answers to common
+problems.
+
+Brainleach facilitates an analysis of certain problems.  Again uses
+pattern matching, contexts and background data.
+
+Should implement PIC on some simple example domains and have it
+working.  Should implement the core features and think of tests for
+them.
+
+Context is a network
+A:B :: C:D
+
+Should look into other systems and try them out as there is little
+time.
+
+Lisp would make a good context langauge.  In general anything that we
+can 'eval' can provide context for certain things.  It's too bad I
+haven't made any progress on these.  These are old goals.
+
+; Need some programmers, forgot to call Mary.
+
+Remind me to finish this in a certain number of hours, adds a
+scheduler event.  Manager defaults to paging me with reminders if it
+can't find me.
+
+Need to get UniLang working over multiple computers before it will be
+able to hunt me down.  Also, adapt its language to provide external
+computer support, maybe by saying: facilitator, agent, that.
+Facilitators can store themselves and or other facilitators.
+Generally Box::ProcessID::Date should be a unique name for a
+facilitator.
+
+Then it can broadcast to all the different items about that item.
+
+
+
+
